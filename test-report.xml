@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/Users/otnielvictoryfa/task2020/atur-tagihan/__tests__/pages/token-listrik.test.js">
+    <testCase name="main rendering Should success mount and unmount" duration="11"/>
+    <testCase name="Token listrik rendering first content should successfully rendered first content on displayContent = 1" duration="8"/>
+    <testCase name="Token listrik rendering first content on Back Button Clicked" duration="4"/>
+    <testCase name="Token listrik rendering first content on meter number text change" duration="57"/>
+    <testCase name="Token listrik rendering first content on product card click call inquiry" duration="24"/>
+    <testCase name="Token listrik rendering first content on phone number text change" duration="19"/>
+    <testCase name="Token listrik rendering second content should successfully rendered second content on displayContent = 2" duration="6"/>
+    <testCase name="Token listrik rendering second content on Back Button Clicked" duration="8"/>
+    <testCase name="Token listrik rendering second content should call on close on next button clicked" duration="23"/>
+    <testCase name="Token listrik rendering nothing should failed render" duration="2"/>
+    <testCase name="Phone number watcher function should set state errorPhoneNumber to false if &lt; 1" duration="2"/>
+    <testCase name="Phone number watcher function should set errorPhoneNumber true on error inserted &gt; 0" duration="1"/>
+    <testCase name="Phone number watcher function should set errorPhoneNumber false on success inserted &gt; 1" duration="1"/>
+    <testCase name="Meter number watcher function should set state errorMeterNumber, enableButton and isSuccessLoading to false if &lt; 1" duration="2"/>
+    <testCase name="Meter number watcher function should set enableButton true and errorMeterNumber on valid meter number" duration="5"/>
+    <testCase name="Meter number watcher function should set errorMeterNumber true, enableButton false and isSuccessLoading false on inserted &gt; 1" duration="2"/>
+    <testCase name="Meter number watcher function should null on else" duration="1"/>
+    <testCase name="getPriceList function Success scenario" duration="5"/>
+    <testCase name="getPriceList function Success scenario but error response" duration="1"/>
+    <testCase name="Inquiry function error on meter number empty " duration="1"/>
+    <testCase name="Inquiry function error on meter not empty and phone number empty " duration="0"/>
+    <testCase name="Inquiry function error on erorPhoneNumber true " duration="1"/>
+    <testCase name="Inquiry function error on errorMeterNumber true " duration="1"/>
+    <testCase name="Inquiry function called end point Success scenario" duration="6"/>
+    <testCase name="Inquiry function called end point Success scenario but error response" duration="3"/>
+    <testCase name="addToCart Method Success scenario" duration="5"/>
+    <testCase name="addToCart Method Success scenario but error response" duration="4"/>
+  </file>
+  <file path="/Users/otnielvictoryfa/task2020/atur-tagihan/__tests__/components/ConfirmationDialogPaymentMethod.test.js">
+    <testCase name="&lt;ConfirmationDialogPaymentMethod/&gt; rendering should successfully rendered based on given props" duration="90"/>
+    <testCase name="&lt;ConfirmationDialogPaymentMethod/&gt; rendering should successfully rendered progress bar on isLoading" duration="9"/>
+    <testCase name="&lt;ConfirmationDialogPaymentMethod/&gt; button action should call on close on back button clicked" duration="8"/>
+    <testCase name="&lt;ConfirmationDialogPaymentMethod/&gt; button action should call on close on next button clicked" duration="83"/>
+    <testCase name="&lt;ConfirmationDialogPaymentMethod/&gt; button action should call clear dialog on handle close" duration="1"/>
+    <testCase name="On Get Post Order Success scenario" duration="6"/>
+    <testCase name="On Get Post Order Success scenario but error response" duration="8"/>
+    <testCase name="On Get Post Order Fail scenario common error" duration="5"/>
+    <testCase name="On Get Post Order Fail scenario unexpected error" duration="5"/>
+  </file>
+  <file path="/Users/otnielvictoryfa/task2020/atur-tagihan/__tests__/pages/keranjang.test.js">
+    <testCase name="&lt;Keranjang/&gt; rendering should successfully rendered main content" duration="30"/>
+    <testCase name="&lt;Keranjang/&gt; rendering should successfully rendered progress bar on isLoading" duration="105"/>
+    <testCase name="On Click Button Pay should open dialog payment" duration="33"/>
+    <testCase name="On Click Button Pay should open dialog detail on total click" duration="18"/>
+    <testCase name="Item Cart Section should show confirmation dialog on delete item cart" duration="41"/>
+    <testCase name="On Get Detail Method Called Success scenario" duration="22"/>
+    <testCase name="On Get Detail Method Called Success scenario but error response" duration="3"/>
+    <testCase name="On deleteCartItem method Success scenario" duration="6"/>
+    <testCase name="On deleteCartItem method Success scenario but error response" duration="3"/>
+    <testCase name="On deleteCartItem method Fail scenario unexpected error" duration="4"/>
+  </file>
+  <file path="/Users/otnielvictoryfa/task2020/atur-tagihan/__tests__/pages/index.test.js">
+    <testCase name="Home rendering should render main menu" duration="6"/>
+    <testCase name="Home rendering should redirect to info bayartagihan if feature 3 enable" duration="68"/>
+    <testCase name="render beranda should call login page on button login clicked" duration="32"/>
+    <testCase name="render beranda should render user name and icon if userProfile state exist" duration="13"/>
+    <testCase name="render beranda should call get profile on logged user" duration="12"/>
+    <testCase name="render beranda should show snackbar on expired user" duration="35"/>
+    <testCase name="render beranda should show snackbar on inactive user" duration="24"/>
+    <testCase name="render beranda on loggedUser should call profile page on name clik" duration="4"/>
+    <testCase name="render beranda on loggedUser should open keranjang page on clik icon keranjang" duration="11"/>
+    <testCase name="getAdditional method should show additional product on succes" duration="21"/>
+    <testCase name="getAdditional method should show items on sucess load" duration="15"/>
+    <testCase name="getAdditional method should show nothing on sucess load but empty" duration="21"/>
+    <testCase name="getAdditional method should route on click additional product feature enable" duration="19"/>
+    <testCase name="getAdditional method should show snackbar click additional product feature enable" duration="13"/>
+    <testCase name="on getProfile method called should set state based on result given at beranda" duration="7"/>
+    <testCase name="on ocClickProduct should return error snackbar on not enable additionalProduct" duration="8"/>
+    <testCase name="on ocClickProduct should return error snackbar on not enable additionalProduct and not logged user" duration="6"/>
+    <testCase name="on ocClickProduct should redirect another page on enable product and logged" duration="4"/>
+  </file>
+  <file path="/Users/otnielvictoryfa/task2020/atur-tagihan/__tests__/components/PaymentMethod.test.js">
+    <testCase name="&lt;MetodeBayar/&gt; rendering should successfully rendered" duration="34"/>
+    <testCase name="&lt;MetodeBayar/&gt; rendering should successfully rendered progress bar on isLoading" duration="14"/>
+    <testCase name="On Click Each Payment Method Should show dialog should display konfirmation dialog on click e money" duration="33"/>
+    <testCase name="On Click Each Payment Method Should show dialog should display konfirmation dialog on click bank transfer" duration="3"/>
+    <testCase name="On Click Each Payment Method Should show dialog should display konfirmation dialog on click Konvernsional" duration="7"/>
+    <testCase name="On Get Payment List Success scenario" duration="9"/>
+    <testCase name="On Get Payment List Fail scenario unexpected error" duration="6"/>
+  </file>
+  <file path="/Users/otnielvictoryfa/task2020/atur-tagihan/__tests__/components/status-pembayaran/ProductOrderDetail.test.js">
+    <testCase name="&lt;ProductOrderDetail/&gt; rendering should successfully rendered based on given props" duration="60"/>
+    <testCase name="&lt;ProductOrderDetail/&gt; rendering should call handleClose onClose dialog" duration="15"/>
+    <testCase name="&lt;ConfirmationDialogPaymentMethod/&gt; button action should call on close on tutup button clicked" duration="22"/>
+    <testCase name="&lt;ConfirmationDialogPaymentMethod/&gt; button action should call clear dialog on handle close" duration="3"/>
+  </file>
+  <file path="/Users/otnielvictoryfa/task2020/atur-tagihan/__tests__/pages/pulsa-dan-data.test.js">
+    <testCase name="component did mount logic Should redirect on null local storage" duration="4"/>
+    <testCase name="component did mount logic Should get pricelist on localstorage not null" duration="2"/>
+    <testCase name="&lt;Pulsa dan data/&gt; rendering should successfully rendered main content" duration="6"/>
+    <testCase name="&lt;Pulsa dan data/&gt; rendering on Back Button Clicked" duration="2"/>
+    <testCase name="&lt;Pulsa dan data/&gt; rendering on phone number text change" duration="20"/>
+    <testCase name="&lt;Pulsa dan data/&gt; rendering on tabs change" duration="43"/>
+    <testCase name="&lt;Pulsa dan data/&gt; rendering do nothing on click product list error phone number" duration="10"/>
+    <testCase name="&lt;Pulsa dan data/&gt; rendering process click product list correct phone number" duration="24"/>
+    <testCase name="Phone number watcher function should reset state on value length &lt; 4" duration="5"/>
+    <testCase name="Phone number watcher function should get pricelist on phonenumber &gt;= 4 and prefix different" duration="41"/>
+    <testCase name="Phone number watcher function should not get pricelist on phonenumber &gt;= 4 and same prefix" duration="9"/>
+    <testCase name="Phone number watcher function should show error on value &gt; 4 &lt; 11" duration="18"/>
+    <testCase name="additional product id should set tab to 1 on localstorage 7" duration="3"/>
+    <testCase name="Get PriceList Method Success scenario" duration="6"/>
+    <testCase name="Get PriceList Method Success scenario but error response" duration="3"/>
+    <testCase name="mappingOperatorAndPrice should set operator logo on product list &gt; 0" duration="4"/>
+    <testCase name="mappingOperatorAndPrice should show snacbar if product list = 0" duration="2"/>
+    <testCase name="onTabChange should set operator logo on product list &gt; 0" duration="9"/>
+    <testCase name="onTabChange on tab clicked 0" duration="2"/>
+    <testCase name="addToCart Method Success scenario and atur tagihan" duration="6"/>
+    <testCase name="addToCart Method Success scenario but error response" duration="2"/>
+  </file>
+  <file path="/Users/otnielvictoryfa/task2020/atur-tagihan/__tests__/pages/status-pembayaran.test.js">
+    <testCase name="&lt;StatusPembayaran/&gt; rendering should successfully rendered component waitingPayment" duration="10"/>
+    <testCase name="&lt;StatusPembayaran/&gt; rendering should successfully rendered component successPayment" duration="3"/>
+    <testCase name="&lt;StatusPembayaran/&gt; rendering should successfully rendered component expiredPayment" duration="3"/>
+    <testCase name="&lt;StatusPembayaran/&gt; rendering should successfully rendered nothing on undefined payment status" duration="2"/>
+    <testCase name="Waiting payment rendering should successfully call on refresh function on clicked" duration="8"/>
+    <testCase name="Waiting payment rendering should successfully call showDialogOrderDetail on clicked detail order" duration="7"/>
+    <testCase name="Waiting payment rendering should successfully call copyText function on clicked copy biller" duration="9"/>
+    <testCase name="Waiting payment rendering should successfully call copyText function on clicked copy payment" duration="14"/>
+    <testCase name="On Expired Payment rendering should successfully call redirect to detail tagihan on click button" duration="4"/>
+    <testCase name="Status Bayar Method Test should successfully show snackbar on success copy text" duration="16"/>
+    <testCase name="Lifecycle and timer test setTick method" duration="6"/>
+    <testCase name="Lifecycle and timer test should clear interval on stop waiting" duration="3"/>
+    <testCase name="On tick method should stop interval on 0 sec" duration="4"/>
+    <testCase name="On tick method should call get payment order on loadingStatus false" duration="21"/>
+    <testCase name="On tick method should not call get payment order on loadingStatus true" duration="6"/>
+    <testCase name="Get Payment Order Method Success scenario" duration="32"/>
+    <testCase name="Get Payment Order Method Success scenario but error response" duration="20"/>
+    <testCase name="Get Payment Order Method Fail scenario expected error 002" duration="24"/>
+    <testCase name="Get Payment Order Method Fail scenario unexpected error" duration="9"/>
+    <testCase name="Get Payment Order Method Success scenario" duration="16"/>
+    <testCase name="Get Payment Order Method Success scenario but error response" duration="1"/>
+    <testCase name="Get Payment Order Method Fail scenario expected error 002" duration="2"/>
+    <testCase name="Get Payment Order Method Fail scenario unexpected error" duration="3"/>
+  </file>
+  <file path="/Users/otnielvictoryfa/task2020/atur-tagihan/__tests__/components/global-component/ButtonMain.test.js">
+    <testCase name="&lt;ButtonMain&gt; /&gt; rendering should successfully rendered match props" duration="39"/>
+    <testCase name="&lt;ButtonMain&gt; /&gt; rendering should successfully rendered match props (size small and fullwidth" duration="10"/>
+    <testCase name="&lt;ButtonMain&gt; /&gt; rendering should successfully rendered secondary color" duration="12"/>
+    <testCase name="&lt;ButtonMain&gt; /&gt; rendering should successfully rendered accent color" duration="1"/>
+  </file>
+  <file path="/Users/otnielvictoryfa/task2020/atur-tagihan/__tests__/components/status-pembayaran/SuccessPayment.test.js">
+    <testCase name="&lt;Success Payment/&gt; rendering should successfully rendered component waitingPayment" duration="22"/>
+    <testCase name="&lt;Success Payment/&gt; rendering should give action click email" duration="4"/>
+    <testCase name="getItem function rendering should successfully rendered diproses on status 1" duration="3"/>
+    <testCase name="getItem function rendering should successfully rendered diproses on status 2" duration="3"/>
+    <testCase name="getItem function rendering should successfully rendered berhasil on status 3" duration="3"/>
+    <testCase name="getItem function rendering should successfully rendered gagal on status 4" duration="2"/>
+    <testCase name="getItem function rendering should successfully rendered status not found on status else" duration="3"/>
+    <testCase name="isAturTagihan method should return true on props have is_special" duration="2"/>
+  </file>
+  <file path="/Users/otnielvictoryfa/task2020/atur-tagihan/__tests__/components/global-component/GSnackbar.test.js">
+    <testCase name="&lt;GSnackbar/&gt; rendering should successfully rendered" duration="6"/>
+    <testCase name="&lt;GSnackbar/&gt; rendering should call clear dialog on handle close" duration="1"/>
+    <testCase name="&lt;GSnackbar/&gt; rendering handle close on snackbar x" duration="13"/>
+    <testCase name="&lt;GSnackbar/&gt; rendering handle close on MuiAlert x" duration="13"/>
+  </file>
+  <file path="/Users/otnielvictoryfa/task2020/atur-tagihan/__tests__/pages/akun.test.js">
+    <testCase name="render profile should render correctly" duration="15"/>
+    <testCase name="render profile should redirect to riwayat  on riwayat button clicked" duration="22"/>
+    <testCase name="render profile should call onLogout method on logout button clicked" duration="28"/>
+    <testCase name="render profile should redirect on empty user profile" duration="9"/>
+    <testCase name="onLogout method called should redirect to beranda on success logout" duration="14"/>
+    <testCase name="onLogout method called Fail scenario unexpected error" duration="10"/>
+    <testCase name="on getProfile method called should set state based on result given" duration="21"/>
+  </file>
+  <file path="/Users/otnielvictoryfa/task2020/atur-tagihan/__tests__/pages/detail-tagihan.test.js">
+    <testCase name="&lt;DetailTagihan/&gt; rendering should successfully rendered progress bar on isLoading" duration="15"/>
+    <testCase name="&lt;DetailTagihan/&gt; rendering should set is atur tagihan true on logged user and not `beli`" duration="3"/>
+    <testCase name="On Inquiry Method Called Success scenario" duration="4"/>
+    <testCase name="On Inquiry Method Called Success scenario but error response" duration="4"/>
+    <testCase name="On Inquiry Method Called Success scenario but payment process" duration="3"/>
+    <testCase name="On Inquiry Method Called Fail scenario common error" duration="4"/>
+    <testCase name="On Inquiry Method Called Fail scenario 404 error billing not found" duration="4"/>
+    <testCase name="On Inquiry Method Called Fail scenario expired bill paid b2b 008" duration="88"/>
+    <testCase name="On Inquiry Method Called Fail scenario expired bill error 009" duration="12"/>
+    <testCase name="On Inquiry Method Called Fail scenario unexpected error" duration="20"/>
+    <testCase name="Login State Dialog should open dialog if login is empty" duration="11"/>
+    <testCase name="Login State Dialog should open dialog if login is expired and inactive" duration="13"/>
+  </file>
+  <file path="/Users/otnielvictoryfa/task2020/atur-tagihan/__tests__/utils/NetworkCall.test.js">
+    <testCase name="on get method and result should show error on response code ! 000000" duration="3"/>
+    <testCase name="on get method and result should return value on response code 000000" duration="1"/>
+    <testCase name="on get method and result should return null on defined error" duration="1"/>
+    <testCase name="on get method and result should return null on undefined error" duration="4"/>
+    <testCase name="on get method and result should clear storage on 401 eror" duration="2"/>
+    <testCase name="on get method and result should clear storage on 403 eror" duration="1"/>
+    <testCase name="On other method called [formalitas coverage] on post put delete method" duration="14"/>
+    <testCase name="use Logged Validation Method should return empty on no token" duration="1"/>
+    <testCase name="use Logged Validation Method should return logged on no success get profile" duration="1"/>
+    <testCase name="use Logged Validation Method should return expired on 401" duration="2"/>
+    <testCase name="use Logged Validation Method should return inactive on 403" duration="1"/>
+    <testCase name="use Logged Validation Method should return error on other error" duration="1"/>
+    <testCase name="use Logged Validation Method should return error on unexpected error" duration="1"/>
+  </file>
+  <file path="/Users/otnielvictoryfa/task2020/atur-tagihan/__tests__/pages/url-not-found.test.js">
+    <testCase name="&lt;Wrong URL/&gt; rendering should successfully rendered component wrong url" duration="6"/>
+  </file>
+  <file path="/Users/otnielvictoryfa/task2020/atur-tagihan/__tests__/components/global-component/CustomDialog.test.js">
+    <testCase name="BasicConfirmationDialog rendering should successfully rendered based on given props" duration="53"/>
+    <testCase name="BasicConfirmationDialog rendering should successfully rendered based on given props not vertical" duration="25"/>
+    <testCase name="BasicConfirmationDialog rendering should set open to false onClose" duration="18"/>
+    <testCase name="BasicConfirmationDialog rendering should call onClick props on next button clicked" duration="24"/>
+    <testCase name="BasicConfirmationDialog rendering should call onClick props on cancel button clicked" duration="19"/>
+    <testCase name="BasicConfirmationDialog rendering should call method on onClick method called" duration="4"/>
+  </file>
+  <file path="/Users/otnielvictoryfa/task2020/atur-tagihan/__tests__/components/global-component/BasicConfirmationDialog.test.js">
+    <testCase name="BasicConfirmationDialog rendering should successfully rendered based on given props" duration="45"/>
+    <testCase name="BasicConfirmationDialog rendering should call on close on back button clicked" duration="6"/>
+    <testCase name="BasicConfirmationDialog rendering should call onConfirm props on next button clicked" duration="6"/>
+    <testCase name="BasicConfirmationDialog rendering should call handleClose on onClose dialog" duration="16"/>
+    <testCase name="BasicConfirmationDialog rendering should call clear dialog on handle close" duration="2"/>
+    <testCase name="BasicConfirmationDialog rendering should call handleClose on parent onConfirm called" duration="16"/>
+  </file>
+  <file path="/Users/otnielvictoryfa/task2020/atur-tagihan/__tests__/pages/login.test.js">
+    <testCase name="render login should back" duration="5"/>
+    <testCase name="render login should call onSuccessLogin on suscess login using google" duration="34"/>
+    <testCase name="render login should redirect back onSuccessLogin called" duration="16"/>
+    <testCase name="onLogin method should redirect to ref on success login" duration="3"/>
+    <testCase name="onLogin method should redirect home on success login" duration="2"/>
+    <testCase name="onLogin method Success scenario but error response" duration="2"/>
+  </file>
+  <file path="/Users/otnielvictoryfa/task2020/atur-tagihan/__tests__/pages/riwayat.test.js">
+    <testCase name="render riwayat should back on click" duration="6"/>
+    <testCase name="render riwayat should show empty on historyList null" duration="18"/>
+    <testCase name="render riwayat should open riwayat on click card" duration="19"/>
+    <testCase name="On List Riwayat Success scenario and result length &lt; 10" duration="6"/>
+    <testCase name="On List Riwayat Success scenario and result length &gt; 10" duration="41"/>
+    <testCase name="On List Riwayat Success scenario but error response" duration="4"/>
+    <testCase name="on get next page method called should cal getHistoryList on next page called" duration="4"/>
+  </file>
+  <file path="/Users/otnielvictoryfa/task2020/atur-tagihan/__tests__/components/beranda/OfferingTagihan.test.js">
+    <testCase name="&lt;Product Card /&gt; rendering should successfully rendered match props" duration="35"/>
+  </file>
+  <file path="/Users/otnielvictoryfa/task2020/atur-tagihan/__tests__/components/global-component/ProductCard.test.js">
+    <testCase name="&lt;Product Card /&gt; rendering should successfully rendered match props" duration="14"/>
+    <testCase name="&lt;Product Card /&gt; rendering should successfully rendered default if no props" duration="3"/>
+  </file>
+  <file path="/Users/otnielvictoryfa/task2020/atur-tagihan/__tests__/components/global-component/BlockDialog.test.js">
+    <testCase name="&lt;BlockDialog /&gt; rendering should successfully rendered" duration="4"/>
+  </file>
+  <file path="/Users/otnielvictoryfa/task2020/atur-tagihan/__tests__/components/global-component/TabPanel.test.js">
+    <testCase name="&lt;Tab Panel /&gt; rendering tab panel render" duration="18"/>
+  </file>
+  <file path="/Users/otnielvictoryfa/task2020/atur-tagihan/__tests__/components/status-pembayaran/PaymentInstruction.test.js">
+    <testCase name="Payement Instruction should passing title and content if payment info complete array" duration="1"/>
+    <testCase name="Payement Instruction should passing default title if payment info complete array" duration="0"/>
+  </file>
+  <file path="/Users/otnielvictoryfa/task2020/atur-tagihan/__tests__/pages/404.test.js">
+    <testCase name="Custom404 rendering should successfully rendered component wrong url" duration="5"/>
+  </file>
+  <file path="/Users/otnielvictoryfa/task2020/atur-tagihan/__tests__/components/global-component/ButtonNavigationPay.test.js">
+    <testCase name="&lt;Bottom Navigation Pay /&gt; rendering should successfully rendered match props" duration="43"/>
+    <testCase name="&lt;Bottom Navigation Pay /&gt; rendering should successfully rendered default if no props" duration="3"/>
+  </file>
+  <file path="/Users/otnielvictoryfa/task2020/atur-tagihan/__tests__/components/additional-product/ProductItem.test.js">
+    <testCase name="&lt;Product Card /&gt; rendering should successfully rendered match props" duration="13"/>
+  </file>
+  <file path="/Users/otnielvictoryfa/task2020/atur-tagihan/__tests__/pages/pembayaran-berhasil.test.js">
+    <testCase name="SuccessPayment rendering should successfully rendered component " duration="15"/>
+    <testCase name="SuccessPayment rendering should redirect on button beranda click" duration="4"/>
+  </file>
+  <file path="/Users/otnielvictoryfa/task2020/atur-tagihan/__tests__/components/additional-product/ListAdditionalProduct.test.js">
+    <testCase name="&lt;List Additional Product/&gt; rendering should successfully rendered main content" duration="20"/>
+    <testCase name="On getAdditionalProduct Method Called Success scenario" duration="4"/>
+    <testCase name="On getAdditionalProduct Method Called Fail scenario unexpected error" duration="1"/>
+    <testCase name="On Click Additional Product should open additional product page" duration="3"/>
+  </file>
+  <file path="/Users/otnielvictoryfa/task2020/atur-tagihan/__tests__/pages/expired-bill.test.js">
+    <testCase name="&lt;ExpiredBill/&gt; rendering should successfully rendered component wrong url" duration="5"/>
+  </file>
+  <file path="/Users/otnielvictoryfa/task2020/atur-tagihan/__tests__/components/global-component/ButtonBack.test.js">
+    <testCase name="&lt;Button Back /&gt; rendering should successfully rendered match props" duration="3"/>
+  </file>
+  <file path="/Users/otnielvictoryfa/task2020/atur-tagihan/__tests__/pages/riwayat-detail.test.js">
+    <testCase name="render riwayat should render correctly" duration="9"/>
+  </file>
+  <file path="/Users/otnielvictoryfa/task2020/atur-tagihan/__tests__/components/global-component/MainLogo.test.js">
+    <testCase name="&lt;MainLogo /&gt; rendering should successfully rendered" duration="3"/>
+  </file>
+  <file path="/Users/otnielvictoryfa/task2020/atur-tagihan/__tests__/utils/Calculate.test.js">
+    <testCase name="getRupiaj fuction should successfully return formatted rupiah" duration="0"/>
+    <testCase name="getRupiaj fuction should return Harga tidak ditemukan on undefined" duration="1"/>
+    <testCase name="getRupiaj fuction should return Harga tidak ditemukan on null" duration="1"/>
+    <testCase name="getRupiaj fuction should return Harga tidak ditemukan on null" duration="1"/>
+  </file>
+  <file path="/Users/otnielvictoryfa/task2020/atur-tagihan/__tests__/components/global-component/PaymentInfoCard.test.js">
+    <testCase name="&lt;Payment Info Card/&gt; rendering should close payment instcution section on close button" duration="11"/>
+    <testCase name="&lt;Payment Info Card/&gt; rendering should open payment instcution section on open button" duration="8"/>
+    <testCase name="setOpenInstruction method should set state as anotation of isPaymentInstructionOpen" duration="2"/>
+    <testCase name="setOpenInstruction method should set state as anotation of isPaymentInstructionOpen" duration="1"/>
+  </file>
+  <file path="/Users/otnielvictoryfa/task2020/atur-tagihan/__tests__/utils/Validator.test.js">
+    <testCase name="Validator fuction should return true on undefined param" duration="1"/>
+    <testCase name="Validator fuction should return false on not undefined param" duration="1"/>
+    <testCase name="Validator fuction should return false on undefined and empty array param" duration="1"/>
+    <testCase name="Validator fuction should return true on not undefined and not empty array param" duration="0"/>
+    <testCase name="Phone validation should return true if number is correct" duration="0"/>
+    <testCase name="Phone validation should return false if number is not correct" duration="1"/>
+    <testCase name="Phone changer validation should return only number" duration="0"/>
+    <testCase name="Phone changer validation should change 62 at firts to 0" duration="1"/>
+    <testCase name="Meter validation should return true if number is correct" duration="1"/>
+    <testCase name="Meter validation should return false if number is not correct" duration="0"/>
+    <testCase name="Email validation should return true if email is correct" duration="2"/>
+    <testCase name="Email validation should return false if number is not correct" duration="1"/>
+  </file>
+  <file path="/Users/otnielvictoryfa/task2020/atur-tagihan/__tests__/utils/MappingIdToURL.test.js">
+    <testCase name="additionalProductURL should return url /pulsa-dan-data on 5 id" duration="1"/>
+    <testCase name="additionalProductURL should return url /token-listrik on 6 id" duration="1"/>
+    <testCase name="additionalProductURL should return url /pulsa-dan-data on 7 id" duration="1"/>
+    <testCase name="additionalProductURL should return url 404 on other id id" duration="0"/>
+  </file>
+  <file path="/Users/otnielvictoryfa/task2020/atur-tagihan/__tests__/components/global-component/CompanyLogo.test.js">
+    <testCase name="&lt;CompanyLogo /&gt; rendering should successfully rendered" duration="7"/>
+  </file>
+  <file path="/Users/otnielvictoryfa/task2020/atur-tagihan/__tests__/components/Test.test.js">
+    <testCase name="Rendering Test Page should rendering test page" duration="4"/>
+  </file>
+  <file path="/Users/otnielvictoryfa/task2020/atur-tagihan/__tests__/utils/Flagr.test.js">
+    <testCase name="On featureEnabled method called Success scenario" duration="1"/>
+    <testCase name="On featureEnabled method called Fail scenario unexpected error" duration="1"/>
+  </file>
+  <file path="/Users/otnielvictoryfa/task2020/atur-tagihan/__tests__/utils/CommonUtils.test.js">
+    <testCase name="copyToClipboard fuction should return true on copy" duration="1"/>
+  </file>
+</testExecutions>

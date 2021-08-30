@@ -1,0 +1,9 @@
+= System URL Argus
+
+Saat ini sistem dalam tahap production, informasi akses dapat dilihat melalui tabel di bawah ini. Gunakan _hash_ yang didapatkan dari AturTagihan untuk mengakses fitur - fitur utama dari Bayar Tagihan.
+
+|===
+|*Stage* |*URL*
+|Staging | bayartagihan.sumpahpalapa.com
+|Production | bayartagihan.id
+|===

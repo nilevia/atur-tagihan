@@ -1,0 +1,51 @@
+{
+  "response": {
+    "code": "000000",
+    "message": "Success",
+    "user_errors": [],
+    "developer_errors": []
+  },
+  "result": {
+    "id": 1,
+    "customer_id": 1,
+    "price_id": 2,
+    "order_identifier": "123",
+    "is_processed": 1,
+    "data": {
+      "billing_id": 1,
+      "product_name": "Perum Kampus Bumi Raya",
+      "periode": "2020-11-01 00:00:00",
+      "start_date": "2020-11-01 00:00:00",
+      "end_date": "2020-11-14 00:00:00",
+      "details": [
+        {
+          "id": 3,
+          "billing_id": 1,
+          "billing_type_name": "IPL - IPL",
+          "amount": 10000
+        },
+        {
+          "id": 4,
+          "billing_id": 1,
+          "billing_type_name": "AIR - Administrasi",
+          "amount": 0
+        },
+        {
+          "id": 5,
+          "billing_id": 1,
+          "billing_type_name": "AIR - Perawatan",
+          "amount": 0
+        },
+        {
+          "id": 6,
+          "billing_id": 1,
+          "billing_type_name": "AIR - Pakai",
+          "amount": 0
+        }
+      ]
+    },
+    "amount": 10000,
+    "created": "2020-07-23 09:48:49",
+    "modified": "2020-07-27 12:09:06"
+  }
+}

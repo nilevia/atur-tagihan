@@ -1,0 +1,33 @@
+{
+  "response": {
+    "code": "000000",
+    "message": "Success",
+    "user_errors": [],
+    "developer_errors": []
+  },
+  "result": {
+    "order_reference": "wehjk",
+    "customer_name": "Surya Ridwan Kartawijaya",
+    "payment_method_id": 1,
+    "payment_method_name": "Mandiri",
+    "payment_code": 1,
+    "payment_bank_account": "xghj",
+    "payment_expired": "2020-07-29T11:19:51.931Z",
+    "total": 220001,
+    "status": 3,
+    "items":[
+      {
+        "biller_name": "Atur Tagihan",
+        "created": "2020-09-08 11:56:49",
+        "data": {"billing_id": 123, "product_name": "Perum Kampus Bumi Raya", "periode": "2020-12-01 00:00:00"},
+        "id": 130,
+        "order_identifier": "123123",
+        "product_name": "Tagihan Perumahan",
+        "product_type_name": "Perumahan",
+        "sell_price": 1231231313,
+        "status": 1,
+        "total": 1231313131
+      }
+    ]
+  }
+}

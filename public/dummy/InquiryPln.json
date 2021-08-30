@@ -1,0 +1,41 @@
+{
+  "response": {
+    "code": "000000",
+    "message": "Success",
+    "user_errors": [],
+    "developer_errors": []
+  },
+  "result": {
+    "customer_id": "123",
+    "price_id": 123,
+    "order_identifier": "123",
+    "data": {
+      "admin_charge": 123,
+      "trx_id": "",
+      "stan": "123",
+      "datetime": "123",
+      "terminal_id": "123",
+      "material_number": "123",
+      "subscriber_id": "123",
+      "pln_refno": "123",
+      "switcher_refno": "123",
+      "subscriber_name": "Otniel",
+      "subscriber_segmentation": "R1",
+      "power": 1300,
+      "distribution_code": "1",
+      "service_unit": "123",
+      "service_unit_phone": "123",
+      "max_kwh_unit": "52.1",
+      "total_repeat": "0",
+      "power_purchase_unsold": "123",
+      "power_purchase_unsold2": "123",
+      "merchant_code": "123",
+      "bank_code": "123",
+      "rc": "123",
+      "status": true,
+      "response_code": "123",
+      "phone_number": "123"
+    },
+    "amount": 0
+  }
+}

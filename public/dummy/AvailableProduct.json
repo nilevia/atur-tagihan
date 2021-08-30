@@ -1,0 +1,31 @@
+{
+  "response": {
+    "code": "000000",
+    "message": "Success",
+    "user_errors": [],
+    "developer_errors": []
+  },
+  "result": [
+    {
+      "id": 5,
+      "name": "Pulsa",
+      "desc": "Pulsa",
+      "is_special": 0,
+      "icon": "http://minotaur.sumpahpalapa.com/static/images/product_type/5.png"
+    },
+    {
+      "id": 6,
+      "name": "Token Listrik",
+      "desc": "Token Listrik",
+      "is_special": 0,
+      "icon": "http://minotaur.sumpahpalapa.com/static/images/product_type/6.png"
+    },
+    {
+      "id": 7,
+      "name": "Paket Data",
+      "desc": "Paket Data",
+      "is_special": 0,
+      "icon": "http://minotaur.sumpahpalapa.com/static/images/product_type/7.png"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+= Development Argus
+
+== Branch
+1. _Checkout_ Master _branch_.
+2. Buat _branch_ baru dengan format `<jenis>/<nama_branch>` contoh: `feature/pembayaran-virtual`.
+
+== Code
+1. Pastikan code ringan.
+2. Perhatikan react _lifecycle_.
+3. Gunakan _components_ sebaik mungkin untuk menghindari duplikasi kode.
+4. Gunakan material-ui sebaik mungkin untuk mempercepat pengerjaan.
+
+== State management
+Gunakan redux sebagai _global state management_ pada aplikasi, cara membuatnya adalah sebagai berikut :
+
+1. Buat folder didalam `/redux`, contoh: `/redux/maps`.
+2. Buat dua file, `action.js` dan `reducer.js`.
+3. Ikuti `code structure` yang sudah ada.
+
+== Custom Style
+Jika ingin menggunakan _style_ sendiri bisa dimasukkan pada `/src/css/custom-style.css`
+
+== Unit Test
+Argus diharapkan memiliki unit _test coverage_ diatas 95% untuk memastikan bahwa program yang dibuat terhindar dari _bug_.
+
+1. Buat file _unit test_ dengan format `__test__/<folder_name>/<component_name.test.js>`
+2. Buat _unit test_ dengan menggunakan Jest dan Enzyme.
+3. Jalankan _script_ NPM untuk memulai _test_.
+4. Jalankan _test_: _coverage_ untuk melihat nilai _coverage_ yang dihasilkan.
+
+== Commit
+_Commit_ pekerjaan sesuai dengan _card_ jira dengan format `<JIRA_ID><space><your_commit>`. Contoh : `INV-1231 Maps Malang`
+
+_Commit_ yang baik mempermudah dalam proses _review_.
+
+== Push
+Setelah semua pekerjaan selesai, lakukan _push_ dan diteruskan dengan proses _deploy_ yang dijelaskan pada bagian <<./release-deploy-argus.adoc#, Release and Deployment Argus>>.
+

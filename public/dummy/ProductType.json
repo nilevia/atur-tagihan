@@ -1,0 +1,23 @@
+{
+  "response": {
+  "code": "000000",
+    "message": "Success",
+    "user_errors": [],
+    "developer_errors": []
+},
+  "result": [
+  {
+    "id": 5,
+    "value": 5000,
+    "product_type_name": "Pulsa",
+    "product_name": "Pulsa 5000",
+    "product_desc": "Pulsa 5000",
+    "operator_id": 1,
+    "is_inquiry": 0,
+    "price_id": 5,
+    "retail_recommended_price": 7000,
+    "sell_price": 6500,
+    "operator_icon": "http://minotaur.sumpahpalapa.com/static/images/operator/5.png"
+  }
+]
+}

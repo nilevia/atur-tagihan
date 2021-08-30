@@ -1,0 +1,18 @@
+.github
+.gitignore
+node_modules
+
+README.md
+**/*.adoc
+
+#unit test
+__tests__
+coverage
+public/dummy
+enzyme.js
+jest.config.js
+sonar-project.properties
+test-report.xml
+
+#others
+.log*

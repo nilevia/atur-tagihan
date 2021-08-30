@@ -1,0 +1,9 @@
+{
+  "response": {
+    "code": "000000",
+    "message": "Success",
+    "user_errors": [],
+    "developer_errors": []
+  },
+  "result": {}
+}

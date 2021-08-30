@@ -1,0 +1,8 @@
+= Product Information Document Argus
+
+Dokumen berikut berisi penjelasan terkait semua _product_ yang ada di dalam sistem Argus. Berikut untuk _list_ dari _product information_ :
+
+|===
+|*Document Title* |*Remark/Explanation*
+| <<product-information-argus/01-product-name-argus.adoc#, Product Name Argus>> |
+|===

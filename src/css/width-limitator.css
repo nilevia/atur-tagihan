@@ -1,0 +1,74 @@
+
+/**
+To use this width limitator, disable css baseline at index
+then load the body blue of soft blue at parent of content
+otniel 9 / 11 / 2020
+ */
+
+html {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+strong, b {
+    font-weight: 700;
+}
+body {
+    color: rgba(0, 0, 0, 0.87);
+    max-width: 500px;
+    margin: 0px auto;
+    font-size: 0.875rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    background-color: #618bc721;
+}
+@media print {
+    body {
+        background-color: #fff;
+    }
+}
+body::backdrop {
+    background-color: #fafafa;
+}
+
+.body-blue {
+    background-repeat:no-repeat;
+    background-image:
+            linear-gradient(#023989,#4e7ff7),
+            linear-gradient(#eff3ff, #eff3ff);
+    background-position:
+            0 0,
+            0 250px;
+    background-size:
+            100% 250px,
+            100% 100vh;
+    height: 100vh;
+}
+
+.soft-blue-body{
+    background: rgb(239, 243, 255);
+    height: 100vh;
+}
+
+.signup-login {
+    border-radius: 2.8px;
+    background-color: #f5a623;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 16px;
+}
+
+.right-top {
+    float: right;
+    margin-top: 20px;
+    margin-right: 16px;
+}

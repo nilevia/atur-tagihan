@@ -1,0 +1,14 @@
+= Technology Argus
+
+Berikut ini adalah teknologi yang digunakan dalam pengembangan sistem Argus:
+
+|===
+|*Specification* |*Name*
+|Programming Language | Javascript
+|Library| ReactJs
+|Framework | NextJs
+|UI Framework| Material UI
+|Unit Testing Framework | Jest
+|Unit Testing Utility | Enzyme
+|State Manager | Redux
+|===

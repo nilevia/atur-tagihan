@@ -1,0 +1,60 @@
+= Argus
+:keywords: innovation, ati, back-end, bayar-tagihan
+
+== Overview
+
+Argus adalah sistem _Front-End_ dari aplikasi Bayar Tagihan, yang merupakan bentuk B2C dari aplikasi Atur Tagihan.
+
+Nama Argus sendiri diambil dari mitologi yunani yaitu raksasa yang selalu waspada bahkan ketika tertidur, dan tahan terhadap kematian.
+
+Dengan sistem ini, pelanggan dapat melakukan pembayaran tagihan (dari Atur Tagihan) maupun membeli produk tambahan melalui BayarTagihan. Argus didesain agar kompatibel dan memiliki _user experience_ yang baik untuk pengguna _smartphone_. Diharapkan kedepanya Argus bisa menjadi satu sistem yang independen.
+
+
+
+== Team Involved
+
+Berikut adalah nama-nama yang terlibat dalam pengembangan sistem Argus (Front-End Bayar Tagihan). Masing-masing sudah dilengkapi dengan alamat email yang bisa dihubungi jika diperlukan.
+
+
+|===
+| *Name* | *Role* | *Email*
+| Krisna Wiyana| Product Owner | krisna@alterra.id
+| Herman Sutanto| Engineering Manager| herman@alterra.id
+| Fiqri Aulia Rahman | Development Team Lead | fiqri@alterra.id
+| Otniel Victory F A | Software Engineer | otniel@alterra.id
+|===
+
+== Technical Information
+
+
+<<docs/url-argus.adoc#, System URL Argus>>
+
+<<docs/architecture-argus.adoc#, Architecture Argus>>
+
+<<docs/technology-argus.adoc#, Technology Argus>>
+
+<<docs/environment-argus.adoc#, Environment Argus>>
+
+<<docs/database-argus.adoc#, Database Documentation Argus>>
+
+<<docs/release-deploy-argus.adoc#, Release and Deployment Argus>>
+
+<<docs/flow-wire-argus.adoc#, Flow and Wireframe Argus>>
+
+== Onboarding Information
+
+<<docs/dev-onboarding-argus.adoc#, Developer Onboarding Argus>>
+
+<<docs/development-argus.adoc#, Development Argus>>
+
+<<docs/naming-convention-argus.adoc#, Naming Convention Argus>>
+
+== Documentation
+
+Berisi dokumen penunjang untuk penggunaan sistem, berikut adalah dokumen yang biasa dimasukkan di dalamnya. Anda dapat memasukkan external link (Google Doc, Horven, Swagger, maupun lainnya) dalam list dokumen berikut:
+
+<<docs/adr-doc-argus.adoc#, ADR Document Argus>>
+
+<<docs/product-information-argus.adoc#, Product Information Document Argus>>
+
+<<docs/release-note-argus.adoc#, Release Note Argus>>

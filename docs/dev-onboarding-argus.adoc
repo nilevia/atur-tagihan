@@ -1,0 +1,16 @@
+= Developer Onboarding Argus
+
+== Dependency
+Install beberapa _dependency_ yang diperlukan untuk _development_ Argus di antaranya:
+
+1. Node v.13 atau lebih.
+2. NPM v.6 atau lebih.
+3. Git
+
+== Tools
+1. Direkomendasikan menggunakan Webstrom dan install plugin `eslint` serta `sonarlint`.
+
+== Setup
+1. _Clone project_ dari _repository_ https://github.com/sepulsa/argus[argus].
+2. Masukkan _environtment local_ `(.env.local)` dengan data yang diberikan developer sebelumnya.
+3. Jalankan _command_ 'npm install' pada terminal untuk menginstal semua _dependency_ yang diperlukan

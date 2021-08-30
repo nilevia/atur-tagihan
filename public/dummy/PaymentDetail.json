@@ -1,0 +1,21 @@
+{
+  "order_id": "inv1234",
+  "biller_id": "bri",
+  "biller_name": "Bank BRI",
+  "biller_logo": "https://bri.co.id/o/bri-corporate-theme/images/logo.png",
+  "biller_account": "16798271681",
+  "bill": [
+    {
+      "category": "Biaya Sewa Kos",
+      "amount": "800000"
+    },
+    {
+      "category": "Biaya Listrik",
+      "amount": "180000"
+    }
+  ],
+  "payment_expired":"2020-07-23 16:57:44",
+  "total_payment": "980000",
+  "payment_status": 1,
+  "payment_method_instruction": "Silakan Transfer dana melalui ATM, Internet Banking, atau Mobile Banking Anda\nPilih Menu Transfer\nMasukkan no rekening tujuan\nMasukkan nominal sesuai yang tertera diatas\nMohon untuk mentransfer sesuai dengan jumlah yang muncul pada laman konfirmasi pembayaran anda, hingga ke satuan Rupiah nya. Perbedaan jumlah, bahkan jika hanya 1 Rupiah, akan menyebabkan kesulitan bagi kami untuk melakukan verifikasi"
+}

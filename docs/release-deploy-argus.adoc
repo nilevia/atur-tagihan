@@ -1,0 +1,37 @@
+= Release and Deployment Argus
+
+==  Deploy
+Dalam _development_ Argus, digunakan sistem TBD (_Trunk Based Development_).
+
+== Step by step:
+
+1. _Developer_ melakukan _Pull Request_ dan memindahkan _card_ jira ke _review_.
+2. _Lead Developer_ atau Peer melakukan _review_ pada _Pull Request_.
+3. _Pull Request_ diterima kemudian dilakukan _Rebase and Merge_ pada brach Master.
+4. Sistem otomatis melakukan _deploy_ ke _Staging_ (TBD).
+
+== Release
+
+Step by step:
+
+=== Jira
+
+1. Membuat _Jira Release/Fix Version_.
+2. Membuat _Jira Card/Task Release._
+3. _Update_ deskripsi _Card/Task Release_.
+4. _Tag story_ yang akan di _release_ menggunakan _Fix Version_ yang sudah dibuat pada tahap 1.
+
+==== Github
+
+1. Membuat _Github Release_ yang sama dengan _Jira Card Release_.
+2. Menambahkan _Tag Version_ sesuai dengan _Fix Version_ dari Jira, target _branch_ atau _commit_ dan _Release Note_.
+3. _Publish Release_
+4. _Git Action_ bekerja secara otomatis untuk melakukan _build, test_, membuat _image_ dan melakukan _push_ ke _server production_.
+
+==== Jira & System
+
+1. Lakukan pengujian dan pastikan _production_ berjalan lancar.
+2. Pindahkan _card_ yang masuk dalam daftar _release_ ke _Done_ (satu persatu atau _bulk_).
+3. Eksekusi _Jira Release / Fix Version_ (Card dalam daftar _release_ akan otomatis tersembunyi dari kanban _board_).
+4. Update T__ask / Card Release__ termasuk time trackingnya.
+5. Transisikan _Task / Card release_ ke _Done_.

@@ -1,0 +1,3 @@
+= Naming Convention Argus
+
+Untuk penamaan dalam _development_ sistem Argus tidak ditentukan standar yang digunakan dalam penamaan _file, variable_ maupun _method_. Namun harus dipastikan untuk memberikan nama yang sudah umum digunakan dan memberikan _doc string (comment)_ diatas sebuah _method_ sehingga bisa mudah dipahami oleh _developer_ lain.

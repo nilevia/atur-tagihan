@@ -1,0 +1,452 @@
+
+/*######## Unlimited Width ######*/
+/*.body-blue {*/
+/*    background-repeat:no-repeat;*/
+/*    background-image:*/
+/*            linear-gradient(#023989,#4e7ff7),*/
+/*            linear-gradient(#eff3ff, #eff3ff);*/
+/*    background-position:*/
+/*            0 0,*/
+/*            0 230px;*/
+/*    background-size:*/
+/*            calc(100% + 100vh) 230px,*/
+/*            calc(100% + 100vh) calc(100% + 100vh);*/
+/*}*/
+/*###############################*/
+/*body {*/
+/*    background-color: #D5E2FF;*/
+/*}*/
+
+.body-blue {
+    background-repeat:no-repeat;
+    background-image:
+            linear-gradient(#023989,#4e7ff7),
+            linear-gradient(#eff3ff, #eff3ff);
+    background-position: top;
+    background-size:
+            500px 230px,
+            500px calc(100% + 100vh);
+    max-width: 500px;
+    min-height: 100vh
+}
+
+.soft-blue-body{
+    background-repeat:no-repeat;
+    background-image: linear-gradient(#EFF3FF, #EFF3FF);
+    background-position: top;
+    background-size: 500px calc(100% + 100vh);
+    min-height: 100vh
+}
+
+.white-body{
+    background-repeat:no-repeat;
+    background-image: linear-gradient(white, white);
+    background-position: top;
+    background-size: 500px calc(100% + 100vh);
+    min-height: 100vh
+}
+
+.additional-product-content{
+    background-color: #eff3ff;
+    padding: 16px 16px 1px;
+}
+
+/******** End Backgorund Setting *********/
+
+/******** Basic Font *********/
+
+.font-muli-300 {
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #484848;
+    margin: 0;
+}
+.font-muli-800 {
+    font-size: 16px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #484848;
+    margin: 0;
+}
+
+.font-muli-12 {
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #484848;
+    margin: 0
+}
+
+.font-muli-14 {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #484848;
+    margin: 0
+}
+
+.font-muli-16 {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #484848;
+    margin: 0
+}
+
+.font-muli-18 {
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #484848;
+    margin: 0
+}
+
+.bold{
+    font-weight: bold;
+}
+
+/********** End Basic Font ***********/
+
+
+/********** Basic Spacing ************/
+.padding-16 {
+    padding: 16px;
+}
+
+.padding-22 {
+    padding: 22px;
+}
+
+.padding-36 {
+    padding: 36px
+}
+
+.padding-rgt-lft-16{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+
+.margin-lft-auto{
+    margin-left: auto;
+}
+.margin-rgt-4 {
+    margin-right: 4px;
+}
+
+.margin-rgt-16 {
+    margin-right: 16px;
+}
+
+.margin-left-16 {
+    margin-left: 16px;
+}
+
+.margin-rgt-8 {
+    margin-right: 8px;
+}
+
+.margin-btm-32 {
+    margin-bottom: 32px;
+}
+
+.margin-btm-24 {
+    margin-bottom: 24px;
+}
+
+.margin-btm-16 {
+    margin-bottom: 16px;
+}
+
+.margin-top-8 {
+    margin-top: 8px;
+}
+
+.margin-top-16 {
+    margin-top: 16px;
+}
+
+.margin-top-24 {
+    margin-top: 24px;
+}
+
+.margin-top-36 {
+    margin-top: 36px;
+}
+.margin-tp-btm-22{
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+.padding-inline-0{
+    padding-inline-start: 22px;
+}
+
+/********** End Basic Spacing ***********/
+
+/********** Color ***************/
+.blue {
+    color: #3669d5;
+}
+
+.dark-blue{
+    color: #2d4689;
+}
+.white{
+    color: #ffff;
+}
+
+.red{
+    color: #e67676;
+}
+
+.light-blue{
+    color: #4a90e2
+}
+
+.orange{
+    color:#f5a623
+}
+
+.grey{
+    color: #484848;
+    opacity: 0.49;
+}
+/********** end color **********/
+
+/********** Basic Align ************/
+.txt-end {
+    text-align: end;
+}
+
+.txt-center-ver {
+    align-items: center;
+}
+
+.txt-center-hoz {
+    text-align: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.txt-white-space {
+    white-space: pre-line;
+}
+
+.truncate {
+    display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.max-15-char {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 15ch;
+}
+
+.flex-end{
+    justify-content: flex-end
+}
+
+/********** End Basic Align ***********/
+
+
+
+/********** Element ************/
+.main-content {
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.rounded-bg {
+    border-radius: 41px;
+    background: #f5f5f5;
+    padding: 8px;
+}
+
+.grey-bg {
+    background: #f4f4f4;
+}
+/*######## Unlimited Width ######*/
+/*.signup-login {*/
+/*    border-radius: 2.8px;*/
+/*    background-color: #f5a623;*/
+/*    padding-left: 24px;*/
+/*    padding-right: 24px;*/
+/*    padding-top: 10px;*/
+/*    padding-bottom: 10px;*/
+/*    top: 20px;*/
+/*    right: 16px;*/
+/*    position: absolute*/
+/*}*/
+/*###############################*/
+
+.signup-login {
+    border-radius: 2.8px;
+    background-color: #f5a623;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 16px;
+}
+
+/*######## Unlimited Width ######*/
+/*.right-top {*/
+/*    top: 20px;*/
+/*    right: 16px;*/
+/*    position: absolute*/
+/*}*/
+/*################################*/
+
+.right-top {
+    float: right;
+    margin-top: 20px;
+    margin-right: 16px;
+}
+
+.coming-soon {
+    border-radius: 20px;
+    background: #e67676;
+    padding: 4px;
+    margin-left: 16px;
+    color: white;
+}
+
+.main-logo {
+    margin-top: 16px;
+    margin-left: 8px
+}
+
+
+.common-border {
+    border-radius: 4px;
+    padding: 16px;
+    border: solid 1px #e8e8e8;
+}
+
+.payment-identification-bg {
+    border-radius: 4px;
+    background: #ededed;
+    padding: 12px;
+}
+
+.horizontal-scroll{
+    overflow-x: auto;
+    display: flex;
+}
+.horizontal-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.payment-method-card {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    padding: 8px;
+    border: 1px solid #e8e8e8;
+    margin-right: 16px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.product-card {
+    padding: 16px;
+    text-align: center;
+    cursor: pointer
+}
+
+.offering-tagihan-card {
+    padding: 16px;
+    min-width: 200px;
+    margin-right: 8px;
+    cursor: pointer
+}
+
+.payment-method-diaglog-image {
+    width: 75px;
+    object-fit: contain;
+}
+
+.payment-method-status-image {
+    width: 65px;
+    object-fit: contain;
+}
+
+.grey-dot {
+    height: 15px;
+    width: 15px;
+    background-color: #bababa;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 2px;
+}
+.orange-dot{
+    height: 15px;
+    width: 15px;
+    background-color: #ff935e;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 2px;
+}
+
+.green-dot{
+    height: 15px;
+    width: 15px;
+    background-color: #07B04D;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 2px;
+}
+
+.red-dot{
+    height: 15px;
+    width: 15px;
+    background-color: #ff8484;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 2px;
+}
+
+.yellow-dot{
+    height: 15px;
+    width: 15px;
+    background-color: #f9cd0b;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 2px;
+}
+
+.pointer {cursor: pointer;}
+/********** End Element ***********/
+
+

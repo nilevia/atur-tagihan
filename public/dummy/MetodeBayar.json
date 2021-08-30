@@ -1,0 +1,61 @@
+{
+  "response": {
+    "code": "000000",
+    "message": "Success",
+    "user_errors": [],
+    "developer_errors": []
+  },
+  "result": {
+    "virtual_account": [
+      {
+        "id": 1,
+        "name": "Mandiri",
+        "bank_name": "Bank Mandiri",
+        "bank_account_name": "",
+        "desc": "Pembayaran menggunakan bank transfer Bank Mandiri",
+        "instruction_message": "",
+        "thankyou_message": ""
+      }
+    ],
+    "bank_transfer": [
+      {
+        "id": 1,
+        "name": "Mandiri",
+        "bank_name": "Bank Mandiri",
+        "bank_account_name": "",
+        "desc": "Pembayaran menggunakan bank transfer Bank Mandiri",
+        "instruction_message": "",
+        "thankyou_message": ""
+      },
+      {
+        "id": 2,
+        "name": "BNI",
+        "bank_name": "Bank BNI",
+        "bank_account_name": "",
+        "desc": "Pembayaran menggunakan bank transfer Bank BNI",
+        "instruction_message": "",
+        "thankyou_message": ""
+      },
+      {
+        "id": 3,
+        "name": "Mandiri",
+        "bank_name": "Bank BCA",
+        "bank_account_name": "",
+        "desc": "Pembayaran menggunakan bank transfer Bank BCA",
+        "instruction_message": "",
+        "thankyou_message": ""
+      }
+    ],
+    "e_money": [
+      {
+        "id": 1,
+        "name": "Mandiri",
+        "bank_name": "Bank Mandiri",
+        "bank_account_name": "",
+        "desc": "Pembayaran menggunakan bank transfer Bank Mandiri",
+        "instruction_message": "",
+        "thankyou_message": ""
+      }
+    ]
+  }
+}

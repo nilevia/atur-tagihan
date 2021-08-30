@@ -1,0 +1,18 @@
+{
+  "response": {
+    "code": "000000",
+    "message": "Success",
+    "user_errors": [],
+    "developer_errors": []
+  },
+  "result": {
+    "id": 1,
+    "payment_method_type": "bank_transfer",
+    "name": "Mandiri",
+    "bank_name": "Bank Mandiri",
+    "bank_account_name": "",
+    "desc": "Pembayaran menggunakan bank transfer Bank Mandiri",
+    "instruction_message": "",
+    "thankyou_message": ""
+  }
+}
